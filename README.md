@@ -114,6 +114,6 @@ The bs5simplyblog theme is sponsored by [WebbPlatsen i Sverige AB](https://webbp
 
 Commercial support and customizations for this plugin is available from WebbPlatsen i Sverige AB.
 
-If you find this plugin useful, feel free to donate, review it, and or spread the word :blush:
+If you find this Bludit add-on useful, feel free to donate, review it, and or spread the word :blush:
 
-If there is something you feel to be missing from this plugin, or if you have found a problem with the code or a feature, please do not hesitate to reach out to support@webbplatsen.se.
+If there is something you feel to be missing from this plugin, or if you have found a problem with the code or a feature, please do not hesitate to reach out to bluditcode@webbplatsen.se.
