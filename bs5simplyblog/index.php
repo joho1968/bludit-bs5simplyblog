@@ -331,6 +331,8 @@ if ( ! empty( $staticContent ) ) {
         })();
     </script>
 
+    <?php Theme::plugins( 'siteBodyBegin' ); ?>
+
     <div class="container">
         <div class="row sticky-top">
             <div class="col-12 bg-body border-bottom border-secondary-subtle">
@@ -392,6 +394,9 @@ if ( ! empty( $staticContent ) ) {
                 ?>
             </div>
         </div>
+
+        <?php Theme::plugins( 'siteBodyBegin' ); ?>
+
         <?php
         if ( $WHERE_AM_I == 'page' && ! $page->isStatic() && ! $url->notFound() && $page->type() !== 'published' && $page->type() !== 'sticky' ) {
             Theme::plugins('pageBegin');
@@ -424,6 +429,7 @@ if ( ! empty( $staticContent ) ) {
         <?php
         }
         ?>
+
     </div>
 
     <div class="offcanvas offcanvas-end d-md-none bg-body bs5simplyblog-notransition" tabindex="-1" id="offcanvasMenu">
@@ -441,10 +447,11 @@ if ( ! empty( $staticContent ) ) {
     </div>
 
 
+    <?php Theme::plugins( 'siteBodyEnd' ); ?>
+
     <?php
     echo '<script src="' . DOMAIN_THEME . 'res/js/bootstrap.bundle.min.js" defer></script>';
     echo '<script src="' . DOMAIN_THEME . 'res/js/highlight.min.js" defer></script>';
-    Theme::plugins( 'siteBodyEnd' );
     ?>
 </body>
 </html>

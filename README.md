@@ -46,12 +46,16 @@ Bludit version 3.15.x or 3.16.x
 4. Go your Bludit admin page
 5. Klick on Themes and activate the `bs5simplyblog` theme
 
-## Other themes
+## Other things I've created for Bludit
 
 * [BS5Docs](https://bludit-bs5docs.joho.se), a fully featured Bootstrap 5 documentation theme for Bludit
 * [BS5Plain](https://bludit-bs5plain.joho.se), a simplistic and clean Bootstrap 5 blog theme for Bludit
+* [Chuck Norris Quotes Plugin](https://github.com/joho1968/bludit-chucknorrisquotes), a Chuck Norris Quotes Plugin for Bludit
 
 ## Changelog
+
+### 1.0.1 (2024-10-16)
+* Corrected the missing call to the `siteBodyBegin` hook.
 
 ### 1.0.0 (2024-10-10)
 * Initial release
@@ -112,7 +116,7 @@ The bs5simplyblog theme was written by Joaquim Homrighausen while converting :co
 
 The bs5simplyblog theme is sponsored by [WebbPlatsen i Sverige AB](https://webbplatsen.se), Sweden :sweden:
 
-Commercial support and customizations for this plugin is available from WebbPlatsen i Sverige AB.
+Commercial support and customizations for this theme is available from WebbPlatsen i Sverige AB.
 
 If you find this Bludit add-on useful, feel free to donate, review it, and or spread the word :blush:
 
